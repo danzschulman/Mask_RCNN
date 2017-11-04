@@ -50,7 +50,7 @@ def log(text, array=None):
             str(array.shape),
             array.min() if array.size else "",
             array.max() if array.size else ""))
-    print(text)
+    #print(text)
 
 
 class BatchNorm(KL.BatchNormalization):
